@@ -12,7 +12,7 @@ class FirstViewController: UIViewController {
 
     @IBOutlet weak var phraseLBL: UILabel!
     @IBAction func clickMe(_ sender: Any){
-        
+        phraseLBL.text = "Wowww"
     }
     
     override func viewDidLoad() {

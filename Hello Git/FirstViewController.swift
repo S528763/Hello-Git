@@ -10,6 +10,11 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var phraseLBL: UILabel!
+    @IBAction func clickMe(_ sender: Any){
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
